@@ -4,10 +4,18 @@
 
 <br>
 
-> ### Learn Basic Markdown Commands
+> ## Learn Basic Markdown Commands
+>
+> ### [Learn MarkDown](LearnMarkDown.md "Learn MarkDown")
 
-[Learn MarkDown](LearnMarkDown.md "Learn MarkDown")
+<br/>
 
-> ### Learn About Typescript
+> ## Learn About Typescript
 >
 > [Typescript](Typescript "Checkout Typescript Folder")
+
+<br/>
+
+> ## Learn Data Structures And Algorithms
+>
+> [Data Structures And Alogrithms](Javascript "Checkout Typescript Folder")
