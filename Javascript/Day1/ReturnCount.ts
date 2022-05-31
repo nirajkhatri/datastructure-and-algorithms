@@ -20,11 +20,13 @@
 //   // return a object with key that are lower case -- convert upper to lower and count as value
 // }
 
-function charCount(str: string) {
-  //   make object to return at end
-  //   loop through the string, for each character
-  // if char is a number/string and is a key in object add one to count
-  // else add char only if char is number/string  to object and set count 1
-  //   else if is something else (space,period,etc) dont do anything
-  //   return the object
-}
+// function charCount(str: string) {
+//   make object to return at end
+//   loop through the string, for each character
+// if char is a number/string and is a key in object add one to count
+// else add char only if char is number/string  to object and set count 1
+//   else if is something else (space,period,etc) dont do anything
+//   return the object
+// }
+
+// 4.Solve or Simplify
