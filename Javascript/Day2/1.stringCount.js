@@ -140,21 +140,25 @@
 // -- INPUT VALIDATION?CHARACTER VALIDATION?SPACES?SPECIAL CHARACTER?
 // -- NOW IS THE CODE SANITIZATION PART
 
+//Write a function which takes in a string and returns counts of each character in the string
+
 function characterCounter(str) {
   // valiating the string
   if (typeof str === "string") {
+    // creating the shalow copy of given string and converting it to lowerCase
+    let strCopy = str.toLowerCase();
     // storing the returning data
     let count = {};
     //   looping through the give string
-    for (let i = 0; i < str.length; i++) {
-      //   converting all character to lowerCase first
-      let letter = str[i].toLowerCase();
+    for (let i = 0; i < strCopy.length; i++) {
+      // Nothing special here
+      let letter = strCopy[i];
       //   checking if key exists in count Object
       if (count.hasOwnProperty(letter)) {
         // incrementing the value of character by 1 if exists in object
         count[letter] = count[letter] + 1;
       } else if (/^[a-z]$/.test(letter)) {
-        // /^[a-z]+$/.test(letter) check if the letter belongs to a-z
+        // /^[a-z]+$/.test(letter) check if the strCopy belongs to a-z
         //   remove any special character and white space
         // adding the character to count object and setting it to 1
         count[letter] = 1;
@@ -162,11 +166,11 @@ function characterCounter(str) {
         // in Javscript else block doesnot have condition checking
       }
     }
-
     // return Object
     return count;
   } else {
+    // return this if given input is not string
     return "Please Enter Valid String";
   }
 }
-console.log(characterCounter("#@NiRAj092"));
+console.log(characterCounter("#@NiIiRAj092"));
