@@ -2,6 +2,8 @@
 
 ### This project was created while I was learning _Markdown_, _Data Structures and Algorithms_, _Typescript_, _Git_ and _Git Hub_ ✌️
 
+<br>
+
 > ### Learn Basic Markdown Commands
 
 [Learn MarkDown](LearnMarkDown.md "Learn MarkDown")
