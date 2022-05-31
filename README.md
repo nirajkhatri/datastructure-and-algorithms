@@ -7,3 +7,7 @@
 > ### Learn Basic Markdown Commands
 
 [Learn MarkDown](LearnMarkDown.md "Learn MarkDown")
+
+> ### Learn About Typescript
+>
+> [Typescript](Typescript "Checkout Typescript Folder")
