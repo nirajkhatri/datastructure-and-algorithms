@@ -12,7 +12,7 @@
 
 > ## Learn Data Structures And Algorithms
 >
-> [Data Structures And Alogrithms](Javascript "Checkout Typescript Folder")
+> [Data Structures And Alogrithms](Javascript "Checkout DSA")
 
 <br/>
 
